@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+
+.video video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
